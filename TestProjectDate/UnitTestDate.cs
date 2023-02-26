@@ -9,7 +9,7 @@ namespace TestProjectDate
         public void TestConstructor()
         {
             Date d = new Date(1, 2, 5);
-            Assert.AreEqual(1, d.GetDay());  // Проверка на равенство двух параметров
+            Assert.AreEqual(1, d.GetDay());  // РџСЂРѕРІРµСЂРєР° РЅР° СЂР°РІРµРЅСЃС‚РІРѕ РґРІСѓС… РїР°СЂР°РјРµС‚СЂРѕРІ
             Assert.AreEqual(2, d.GetMonth());
             Assert.AreEqual(5, d.GetYear());
         }
